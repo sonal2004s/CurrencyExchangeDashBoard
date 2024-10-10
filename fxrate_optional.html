@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchange Rates</title>
+    <link rel="stylesheet" href="fxrate.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Exchange Rates</h1>
+       
+        <div class="form-group">
+            <label for="base-currency">Select Base Currency:</label>
+            <select id="base-currency">
+                <option value="USD">USD - US Dollar</option>
+                <option value="EUR">EUR - Euro</option>
+                <option value="GBP">GBP - British Pound</option>
+                <option value="AUD">AUD - Australian Dollar</option>
+                <option value="CAD">CAD - Canadian Dollar</option>
+                <option value="INR">INR - Indian Rupee</option>
+                <option value="JPY">JPY - Japanese Yen</option>
+                <!-- Add more currencies as needed -->
+            </select>
+        </div>
+       
+        <div class="form-group">
+            <label for="date-picker">Select Date:</label>
+            <input type="date" id="date-picker" min="2012-01-01" max="2022-12-31" required>
+        </div>
+       
+        <button id="fetch-rates">Fetch Rates</button>
+        <div id="rates-display" class="rates-display"></div>
+    </div>
+    <script src="FXRatesService.js"></script>
+    <script src="fxrate.js"></script>
+</body>
+</html>
