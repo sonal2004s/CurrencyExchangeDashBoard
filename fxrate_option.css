@@ -1,0 +1,95 @@
+/* Reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Set a basic background and font for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* Container for the form elements */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    color: #7067ea;
+    margin-bottom: 20px;
+}
+
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+/* Select and input styling */
+select, input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6860d7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Button hover effect */
+button:hover {
+    background-color: #575fcf;
+}
+
+
+/* Display rates styling */
+.rates-display {
+    margin-top: 20px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Styling for individual rate entries */
+.rates-display p {
+    margin: 5px 0;
+}
